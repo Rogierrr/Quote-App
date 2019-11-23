@@ -1,20 +1,14 @@
 import React from 'react';
 import './App.css';
-import QuoteSearcher from "./Components/QuoteSearcher";
+import QuoteSearcher from "./components/QuoteSearcher";
 
 function App() {
-
-  const sayHello = () => {
-    console.log("hello");
-    ;
-  }
-
-  return (
+    return (
     <div className="App">
-      
+      <header>
      <h1>hello rogier</h1>
-     <button onClick={sayHello}>click</button>
      < QuoteSearcher />
+     </header>
     </div>
   );
 }
